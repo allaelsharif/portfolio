@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alla Zakaria Elsharif | Portfolio</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-name">Alla</span>
+        <span class="logo-bracket">/&gt;</span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hero-particles" id="particles"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        Status / <span class="badge-status">Open to Opportunities</span>
+      </div>
+      <h1 class="hero-title">
+        Hi, I'm <span class="highlight">Alla Elsharif</span><br />
+        <span class="typed-wrapper">
+          <span class="typed" id="typed-text"></span><span class="cursor">|</span>
+        </span>
+      </h1>
+      <p class="hero-description">
+        Computer Engineering graduate passionate about building innovative solutions
+        and turning ideas into reality through code.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn btn-primary">
+          <i class="fa-solid fa-rocket"></i> View My Work
+        </a>
+        <a href="#contact" class="btn btn-outline">
+          <i class="fa-solid fa-envelope"></i> Get in Touch
+        </a>
+      </div>
+      <div class="hero-socials">
+        <a href="https://github.com/allaelsharif" target="_blank" class="social-icon" aria-label="GitHub">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/alla-elsharif" target="_blank" class="social-icon" aria-label="LinkedIn">
+          <i class="fa-brands fa-linkedin-in"></i>
+        </a>
+        <a href="mailto:a.zjelsharif@gmail.com" class="social-icon" aria-label="Email">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-card">
+        <div class="code-header">
+          <span class="dot red"></span>
+          <span class="dot yellow"></span>
+          <span class="dot green"></span>
+          <span class="code-filename">about_me.py</span>
+        </div>
+        <div class="code-body">
+          <pre><code><span class="code-keyword">class</span> <span class="code-class">Alla</span>:
+  <span class="code-keyword">def</span> <span class="code-fn">__init__</span>(self):
+    self.name     = <span class="code-str">"Alla Zakaria Elsharif"</span>
+    self.degree   = <span class="code-str">"Computer Engineering"</span>
+    self.status   = <span class="code-str">"Fresh Graduate"</span>
+    self.passion  = <span class="code-str">"Building cool things"</span>
+    self.coffee   = <span class="code-bool">True</span>  <span class="code-comment"># always</span>
+
+  <span class="code-keyword">def</span> <span class="code-fn">get_skills</span>(self):
+    <span class="code-keyword">return</span> [<span class="code-str">"Problem Solving"</span>,
+            <span class="code-str">"Clean Code"</span>,
+            <span class="code-str">"Fast Learner"</span>]</code></pre>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down" aria-label="Scroll down">
+      <i class="fa-solid fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// who am I</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrapper">
+          <div class="about-image-placeholder">
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="about-image-glow"></div>
+        </div>
+        <div class="about-content">
+          <h3 class="about-name">Alla Zakaria Elsharif</h3>
+          <p class="about-role">Computer Engineering Graduate</p>
+          <p class="about-text">
+            I'm a fresh Computer Engineering graduate with a passion for technology
+            and software development. I love tackling complex problems and turning
+            them into elegant, efficient solutions.
+          </p>
+          <p class="about-text">
+            Currently seeking opportunities where I can apply my technical skills,
+            grow as an engineer, and contribute to meaningful projects.
+          </p>
+          <div class="about-info">
+            <div class="info-item">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>Computer Engineering</span>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:a.zjelsharif@gmail.com">a.zjelsharif@gmail.com</a>
+            </div>
+            <div class="info-item">
+              <i class="fa-brands fa-github"></i>
+              <a href="https://github.com/allaelsharif" target="_blank">github.com/allaelsharif</a>
+            </div>
+            <div class="info-item">
+              <i class="fa-brands fa-linkedin"></i>
+              <a href="https://www.linkedin.com/in/alla-elsharif" target="_blank">linkedin.com/in/alla-elsharif</a>
+            </div>
+          </div>
+          <a href="#contact" class="btn btn-primary" style="margin-top:1.5rem;">
+            <i class="fa-solid fa-paper-plane"></i> Let's Talk
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section section-dark" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// what I know</span>
+        <h2 class="section-title">Skills & Technologies</h2>
+      </div>
+      <div class="skills-grid">
+
+        <div class="skill-category" data-aos="fade-up">
+          <div class="skill-category-icon"><i class="fa-solid fa-code"></i></div>
+          <h3>Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C++</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-category-icon"><i class="fa-solid fa-globe"></i></div>
+          <h3>Web Development</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+          <div class="skill-category-icon"><i class="fa-solid fa-database"></i></div>
+          <h3>Databases & Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">GitHub</span>
+            <span class="skill-tag">Linux</span>
+          </div>
+        </div>
+
+        <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+          <div class="skill-category-icon"><i class="fa-solid fa-brain"></i></div>
+          <h3>Soft Skills</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Problem Solving</span>
+            <span class="skill-tag">Teamwork</span>
+            <span class="skill-tag">Fast Learner</span>
+            <span class="skill-tag">Communication</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// what I built</span>
+        <h2 class="section-title">Projects</h2>
+        <p class="section-subtitle">Here are some of the projects I've worked on. More coming soon!</p>
+      </div>
+      <div class="projects-grid">
+
+        <!-- Project Card Placeholder 1 -->
+        <div class="project-card" data-aos="fade-up">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-folder-open"></i></div>
+            <div class="project-links">
+              <a href="#" class="project-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="#" class="project-link" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Graduation Project</h3>
+          <p class="project-description">
+            Description of your graduation project will go here. Tell us what problem it solves and how you built it.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">Python</span>
+            <span class="project-tag">Coming Soon</span>
+          </div>
+        </div>
+
+        <!-- Project Card Placeholder 2 -->
+        <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="project-top">
+            <div class="project-icon"><i class="fa-solid fa-folder-open"></i></div>
+            <div class="project-links">
+              <a href="#" class="project-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="#" class="project-link" aria-label="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">University Project</h3>
+          <p class="project-description">
+            Description of one of your university projects. Highlight the technologies used and what you learned.
+          </p>
+          <div class="project-tags">
+            <span class="project-tag">C++</span>
+            <span class="project-tag">Coming Soon</span>
+          </div>
+        </div>
+
+        <!-- Add More Card -->
+        <div class="project-card project-card-add" data-aos="fade-up" data-aos-delay="200">
+          <div class="add-project-inner">
+            <i class="fa-solid fa-plus"></i>
+            <p>More projects coming soon</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section section-dark" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// let's connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">
+          I'm currently open to new opportunities. Whether you have a question or just want to say hi — my inbox is always open!
+        </p>
+      </div>
+      <div class="contact-grid">
+        <a href="mailto:a.zjelsharif@gmail.com" class="contact-card" data-aos="fade-up">
+          <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+          <h3>Email</h3>
+          <span>a.zjelsharif@gmail.com</span>
+        </a>
+        <a href="https://www.linkedin.com/in/alla-elsharif" target="_blank" class="contact-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="contact-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+          <h3>LinkedIn</h3>
+          <span>alla-elsharif</span>
+        </a>
+        <a href="https://github.com/allaelsharif" target="_blank" class="contact-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="contact-icon"><i class="fa-brands fa-github"></i></div>
+          <h3>GitHub</h3>
+          <span>allaelsharif</span>
+        </a>
+      </div>
+      <div class="contact-cta" data-aos="fade-up">
+        <a href="mailto:a.zjelsharif@gmail.com" class="btn btn-primary btn-large">
+          <i class="fa-solid fa-paper-plane"></i> Say Hello
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <p>Designed & Built by <span class="highlight">Alla Zakaria Elsharif</span></p>
+      <p class="footer-year">© <span id="year"></span> All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
